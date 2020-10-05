@@ -32,4 +32,4 @@ jobs:
       
       # Running Surge by generating surge token 
       - name: Run Surge
-        run: surge ./ class_1_bootcamp.surge.sh --token ${{secret.SURGE_TOKEN}}
+        run: surge ./ class_1_bootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
